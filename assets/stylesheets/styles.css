@@ -1,3 +1,84 @@
+/* CSS Reset */
+
+/* Reset box model */
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ul,
+ol,
+li,
+form,
+label,
+input,
+textarea,
+button,
+table,
+thead,
+tbody,
+tfoot,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  vertical-align: baseline;
+}
+
+/* Remove list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove text decoration for links */
+a {
+  text-decoration: none;
+}
+
+/* Reset heading margins */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+/* Reset form elements */
+input,
+textarea,
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: none;
+  border-radius: 0;
+  font-size: inherit;
+}
+
+/* Additional Reset Styles */
+
+/* Optionally add any additional reset styles or customizations here */
+
+/* Your other CSS styles go below this line */
+
+/* ... Rest of your CSS ... */
+
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
